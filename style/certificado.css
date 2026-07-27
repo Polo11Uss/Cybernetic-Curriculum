@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+}
+
+body {
+    background: linear-gradient(#0B0B12 80%, #39FF14);
+    color: #E5E7EB;
+    min-height: 100vh;
+}
+
+header {
+    background: #09090F;
+    border-bottom: 2px solid #39FF14;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 25px 0;
+    gap: 10px;
+}
+
+nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 8px 14px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    color: #39FF14;
+    background: #1B1B29;
+}
+
+.certificados {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Categoria (Seção inteira) */
+.categoria{
+    margin-bottom: 40px;
+}
+
+/* Título principal da Categoria */
+.categoria h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #39FF14;
+    text-decoration: underline;
+}
+
+/* Contêiner que alinha os cards lado a lado */
+.cards-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+}
+
+/* Estrutura de cada Card */
+.card {
+    background-color: #09090f;
+    border: 1px solid #333;
+    border-radius: 15px;
+    width: 260px;
+    min-height: 330px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #39FF14;
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #39FF14;
+    border-radius: 10px;
+    padding: 10px;
+    object-fit: contain;
+    background-color: #fff;
+}
+
+.card h2 {
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.card h4 {
+    color: #39FF14;
+    margin: 5px 0 15px;
+}
+
+.card p {
+    color: #b5b5b5;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: 15px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.btn {
+    border: 1px solid #39FF14;
+    color: #39FF14;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #39FF14;
+    color: black;
+}
+
+.divisor {
+    border: none;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #39FF14, transparent);
+    margin: 50px 0;
+    opacity: 1;
+}
+
+footer{
+    border-top:1px solid #2F3A52;
+    text-align:center;
+    padding:30px;
+    color:#8E95A9;
+}
+
+footer{
+    border-top:1px solid #2F3A52;
+    text-align:center;
+    padding:30px;
+    color:#FFFFFF;
+    font-style:oblique;
+}
